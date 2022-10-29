@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 60px;
+
+}
+
+.navigator{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 4px rgb(9, 37, 73);
+}
+.navigator a{
+    padding: 10px 20px;
+    background-color: rgba(35, 189, 189, 0.671);
+    text-decoration: none;
+    color: white;
+}
+.navigator a :hover{
+    background-color: rgb(143, 5, 156);
+}
